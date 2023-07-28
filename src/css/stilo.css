@@ -66,7 +66,7 @@ section {
 .home {
     width: 99vw;
     height: 100vh;
-    background: url(../src/img/homem.jpg);
+    background-image: url(../img/homem.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,6 +130,10 @@ span {
     transition: .5s ease;
 }
 
+.home-conteudo .btn {
+    margin-top: 40px;
+}
+
 .btn:hover {
     box-shadow: none;
 }
@@ -189,7 +193,7 @@ span {
     font-size: 1.8rem;
     margin: 2rem 0 3rem;
     font-style: italic;
-
+    text-indent: 30px;
 }
 
 .sobre-conteudo p span {
