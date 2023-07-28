@@ -1,0 +1,144 @@
+
+@media (max-width: 1200px) {    
+    html {
+        font-size: 55%;
+    }
+    
+    .sobre img {
+        width: 25vw;
+        margin-bottom: 3rem;  
+    }
+    
+}
+
+@media (max-width: 991px) {
+    .header {
+        padding: 2rem 3%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+   
+    .habilidade {
+       padding-bottom: 7rem; 
+    }
+
+    .projeto {
+        padding-bottom: 7rem;
+    }
+
+    .contato {
+        min-height: auto;
+    }
+
+    .rodape {
+        padding: 2rem 3%;
+    }
+
+    .sobre-conteudo {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+       flex-direction: column;
+  
+    }
+   
+    .home-content h3 {
+        font-size: 2.6rem;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre img {
+        width: 40vw;
+        margin-bottom: 3rem;
+    }
+
+    .habilidade h2 {
+        margin-bottom: 3rem;
+    }
+
+    .projeto h2 {
+        margin-bottom: 3rem;
+    }
+
+    .projeto-conteudo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 617px) {
+    .projeto-conteudo {
+      grid-template-columns: 1fr; 
+    }
+    
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contato form .input-item input {
+        width: 100%;
+    }
+    .sobre-img img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 365px) {
+    
+    .sobre-img img {
+        width: 90vw;
+    }
+
+
+    .rodape {
+        flex-direction: column-reverse;
+    }
+
+    .rodape p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+}
+
