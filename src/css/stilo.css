@@ -319,17 +319,19 @@ span {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 9rem;
+    width: 10rem;
     height: 3rem;
     background: rgba(0, 0, 0, 0.63);
-    border-radius: 10%;
+    border-radius: 4%;
     font-size: 13px;
     color: var(--text-color);
+    padding-left: 8px;
 }
 
 .projeto-camada a i {
     font-size: 2rem;
     color: var(--text-color);
+    margin: 7px;
 
 }
 
